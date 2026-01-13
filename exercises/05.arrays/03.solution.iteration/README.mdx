@@ -21,16 +21,14 @@ numbers.reduce((sum, n) => sum + n, 0) // 15
 ```
 
 <callout-info>
-`map` and `filter` are especially important because they don't modify the
-original array. This "immutable" pattern is preferred in modern JavaScript and
-is essential in frameworks like React.
+	`map` and `filter` are especially important because they don't modify the
+	original array. This "immutable" pattern is preferred in modern JavaScript and
+	is essential in frameworks like React.
 </callout-info>
 
 You can also chain these methods:
 
 ```js
-numbers
-	.filter((n) => n > 2)
-	.map((n) => n * 10)
+numbers.filter((n) => n > 2).map((n) => n * 10)
 // [30, 40, 50]
 ```
