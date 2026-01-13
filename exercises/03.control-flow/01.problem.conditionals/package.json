@@ -1,0 +1,6 @@
+{
+  "name": "exercises_03.control-flow_01.problem.conditionals",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

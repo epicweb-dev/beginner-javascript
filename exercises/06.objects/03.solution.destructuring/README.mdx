@@ -1,0 +1,42 @@
+# Destructuring
+
+👨‍💼 Excellent! Destructuring makes your code much cleaner and more readable.
+
+🦉 Advanced destructuring patterns:
+
+**Default values:**
+
+```js
+const { name, age = 0 } = person // age defaults to 0 if undefined
+```
+
+**Nested destructuring:**
+
+```js
+const data = {
+	user: { name: 'Alice', role: 'admin' },
+}
+const {
+	user: { name, role },
+} = data
+```
+
+**Rest pattern:**
+
+```js
+const [first, ...rest] = [1, 2, 3, 4] // first = 1, rest = [2, 3, 4]
+const { name, ...others } = person // others contains all other properties
+```
+
+**Function parameters:**
+
+```js
+// Very common pattern!
+function greet({ name, age }) {
+	return `Hi ${name}, you are ${age}`
+}
+greet({ name: 'Alice', age: 30 })
+```
+
+Destructuring is used extensively in modern JavaScript, especially with React
+and API responses. Master it and you'll write cleaner code!

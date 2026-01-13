@@ -1,0 +1,39 @@
+# Object Methods
+
+👨‍💼 Objects can contain functions! When a function is a property of an object,
+we call it a **method**.
+
+```js
+const calculator = {
+	add: function (a, b) {
+		return a + b
+	},
+	// Shorthand syntax (preferred):
+	subtract(a, b) {
+		return a - b
+	},
+}
+
+calculator.add(5, 3) // 8
+calculator.subtract(5, 3) // 2
+```
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create an object `person` with properties `firstName` and `lastName`
+2. Add a method `getFullName` that returns the full name (firstName + lastName)
+3. Add a method `greet` that returns "Hello, I'm [fullName]!"
+4. Call both methods and log the results
+
+💰 Inside a method, use `this` to refer to the object itself:
+
+```js
+const person = {
+	name: 'Alice',
+	sayHi() {
+		return 'Hi, I am ' + this.name
+	},
+}
+```
+
+📜 [Working with objects on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)

@@ -1,0 +1,30 @@
+# Variable Scope
+
+👨‍💼 Understanding scope is crucial for writing bug-free code!
+
+🦉 Scope rules:
+
+1. **Inner scopes can access outer scopes** - Functions can access global
+   variables
+2. **Outer scopes cannot access inner scopes** - You can't access a function's
+   local variables from outside
+3. **Each function creates a new scope** - Variables with the same name in
+   different functions are completely separate
+
+```js
+const name = 'Global'
+
+function outer() {
+	const name = 'Outer' // Different variable, shadows global
+
+	function inner() {
+		const name = 'Inner' // Different variable, shadows outer
+		console.log(name) // "Inner"
+	}
+}
+```
+
+<callout-warning>
+Avoid global variables when possible! They can be changed from anywhere, making
+bugs hard to track. Prefer passing values as function parameters.
+</callout-warning>

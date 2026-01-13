@@ -1,0 +1,6 @@
+{
+	"name": "exercises_05.arrays_02.solution.methods",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

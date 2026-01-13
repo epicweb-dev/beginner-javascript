@@ -1,0 +1,6 @@
+{
+	"name": "exercises_01.hello-javascript_05.problem.template-literals",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

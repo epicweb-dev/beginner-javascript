@@ -1,0 +1,32 @@
+# Arrow Functions
+
+👨‍💼 Nice! Arrow functions are concise and very common in modern JavaScript.
+
+🦉 Arrow function shortcuts:
+
+```js
+// Single parameter - parentheses optional
+const double = (n) => n * 2
+const double = n => n * 2 // Same thing!
+
+// No parameters - parentheses required
+const sayHi = () => 'Hi!'
+
+// Multiple lines - braces and return required
+const calculate = (a, b) => {
+	const sum = a + b
+	const product = a * b
+	return { sum, product }
+}
+```
+
+<callout-info>
+Arrow functions have a subtle difference with `this` binding, which becomes
+important later. For now, just know that both syntaxes work for most cases.
+</callout-info>
+
+Use arrow functions for:
+
+- Short utility functions
+- Callbacks (functions passed to other functions)
+- Array methods like `map`, `filter`, `forEach`

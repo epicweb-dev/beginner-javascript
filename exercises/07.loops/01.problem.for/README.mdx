@@ -1,0 +1,35 @@
+# For Loops
+
+👨‍💼 When you need to repeat code a specific number of times, the `for` loop is
+your tool of choice.
+
+The syntax:
+
+```js
+for (initialization; condition; update) {
+	// code to repeat
+}
+```
+
+For example:
+
+```js
+for (let i = 0; i < 5; i++) {
+	console.log(i) // Logs 0, 1, 2, 3, 4
+}
+```
+
+The three parts:
+
+1. **Initialization** (`let i = 0`) - Runs once before the loop starts
+2. **Condition** (`i < 5`) - Checked before each iteration; loop stops when false
+3. **Update** (`i++`) - Runs after each iteration
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Write a for loop that logs numbers 1 through 5
+2. Write a for loop that logs even numbers from 2 to 10
+3. Write a for loop that counts down from 5 to 1
+
+💰 To count by 2s, use `i += 2` in the update. To count down, start high and use
+`i--`.

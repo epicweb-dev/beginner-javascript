@@ -1,0 +1,6 @@
+{
+  "name": "exercises_04.functions_03.problem.arrow",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

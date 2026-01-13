@@ -1,0 +1,6 @@
+{
+  "name": "exercises_06.objects_02.problem.methods",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

@@ -1,0 +1,36 @@
+# Array Iteration
+
+👨‍💼 Excellent! These methods are the bread and butter of JavaScript programming.
+
+🦉 More iteration methods you'll use:
+
+```js
+const numbers = [1, 2, 3, 4, 5]
+
+// Find first element matching condition
+numbers.find((n) => n > 3) // 4
+
+// Check if ANY element matches
+numbers.some((n) => n > 4) // true
+
+// Check if ALL elements match
+numbers.every((n) => n > 0) // true
+
+// Reduce to single value
+numbers.reduce((sum, n) => sum + n, 0) // 15
+```
+
+<callout-info>
+`map` and `filter` are especially important because they don't modify the
+original array. This "immutable" pattern is preferred in modern JavaScript and
+is essential in frameworks like React.
+</callout-info>
+
+You can also chain these methods:
+
+```js
+numbers
+	.filter((n) => n > 2)
+	.map((n) => n * 10)
+// [30, 40, 50]
+```

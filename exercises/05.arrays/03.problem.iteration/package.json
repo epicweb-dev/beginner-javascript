@@ -1,0 +1,6 @@
+{
+  "name": "exercises_05.arrays_03.problem.iteration",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

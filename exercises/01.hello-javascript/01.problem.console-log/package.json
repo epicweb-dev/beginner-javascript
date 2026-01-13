@@ -1,0 +1,6 @@
+{
+  "name": "exercises_01.hello-javascript_01.problem.console-log",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

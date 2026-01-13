@@ -1,0 +1,32 @@
+# Null and Undefined
+
+👨‍💼 JavaScript has two special values that represent "nothing" or "no value":
+
+- **undefined** - A variable that hasn't been assigned a value yet
+- **null** - An intentional "empty" or "nothing" value
+
+These might seem similar, but they have different meanings:
+
+- `undefined` means "this doesn't have a value yet"
+- `null` means "this intentionally has no value"
+
+🐨 Open <InlineFile file="index.js" /> and explore these special values:
+
+1. Create a variable `notAssigned` without giving it a value
+2. Create a variable `intentionallyEmpty` and set it to `null`
+3. Log both variables with their types using `typeof`
+4. Compare them with `==` and `===` to see the difference
+
+💰 You can declare a variable without a value:
+
+```js
+let myVariable
+console.log(myVariable) // undefined
+```
+
+🦉 Fun fact: `typeof null` returns `"object"` - this is actually a bug in
+JavaScript from the very first version, but it can't be fixed now because too
+much code depends on it!
+
+📜 [null on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)
+📜 [undefined on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)

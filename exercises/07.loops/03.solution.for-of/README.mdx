@@ -1,0 +1,39 @@
+# For...of Loops
+
+👨‍💼 Perfect! `for...of` is the cleanest way to iterate when you just need values.
+
+🦉 Comparison of iteration methods:
+
+```js
+const items = ['a', 'b', 'c']
+
+// for...of - when you need values
+for (const item of items) {
+	console.log(item) // a, b, c
+}
+
+// for - when you need the index
+for (let i = 0; i < items.length; i++) {
+	console.log(i, items[i]) // 0 a, 1 b, 2 c
+}
+
+// forEach - when you need both
+items.forEach((item, index) => {
+	console.log(index, item)
+})
+
+// for...in - iterates over keys (use for objects, not arrays!)
+for (const key in items) {
+	console.log(key) // "0", "1", "2" (strings!)
+}
+```
+
+<callout-warning>
+Don't confuse `for...of` with `for...in`! - `for...of` iterates over
+**values** (use with arrays) - `for...in` iterates over **keys** (use with
+objects)
+</callout-warning>
+
+In modern JavaScript, you'll often use array methods like `forEach`, `map`, and
+`filter` instead of loops. But understanding loops is essential for cases where
+those methods don't fit.

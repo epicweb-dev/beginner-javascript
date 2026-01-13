@@ -1,0 +1,23 @@
+# Switch Statements
+
+👨‍💼 Nice work! Notice how we handled Saturday and Sunday together by stacking
+cases:
+
+```js
+case 'Saturday':
+case 'Sunday':
+  console.log('Weekend!')
+  break
+```
+
+This is called "fall-through" and it's one of the few times you intentionally
+omit `break`.
+
+🦉 When to use switch vs if/else:
+
+- **Use switch** when comparing one value against several exact matches
+- **Use if/else** when you have range comparisons or complex conditions
+
+Switch is also slightly faster for many cases because JavaScript can optimize
+the lookup, but for most code the difference is negligible - choose based on
+readability.

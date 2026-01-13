@@ -1,0 +1,39 @@
+# Template Literals
+
+👨‍💼 Template literals are a powerful way to work with strings in JavaScript.
+Instead of using quotes (`'` or `"`), you use backticks (`` ` ``).
+
+The magic of template literals is **string interpolation** - you can embed
+variables and expressions directly inside the string using `${...}`:
+
+```js
+const name = 'Alice'
+const greeting = `Hello, ${name}!`
+// "Hello, Alice!"
+```
+
+You can also create **multi-line strings** without any special characters:
+
+```js
+const poem = `Roses are red,
+Violets are blue,
+JavaScript is awesome,
+And so are you!`
+```
+
+🐨 Open <InlineFile file="index.js" /> and practice template literals:
+
+1. Create variables for `firstName` and `lastName`
+2. Create a `fullName` using a template literal that combines them
+3. Create an `age` variable with a number
+4. Create a `bio` that includes the name and age using interpolation
+5. Create a multi-line `address` string
+6. Log all of them to see the results
+
+💰 You can put any expression inside `${...}`:
+
+```js
+console.log(`2 + 2 = ${2 + 2}`) // "2 + 2 = 4"
+```
+
+📜 [Template literals on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)

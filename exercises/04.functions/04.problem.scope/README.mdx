@@ -1,0 +1,27 @@
+# Variable Scope
+
+👨‍💼 Scope determines where variables are accessible. Understanding scope helps
+you avoid bugs and write cleaner code.
+
+**Key concepts:**
+
+- **Global scope** - Variables declared outside any function are accessible
+  everywhere
+- **Local/Function scope** - Variables declared inside a function are only
+  accessible within that function
+- **Block scope** - Variables declared with `let` and `const` inside `{}` are
+  only accessible within those braces
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create a global variable `globalMessage` with "I'm global!"
+2. Create a function `showMessages` that:
+   - Creates a local variable `localMessage` with "I'm local!"
+   - Logs both `globalMessage` and `localMessage`
+3. Call `showMessages()`
+4. After calling the function, log `globalMessage` (should work)
+5. Try to log `localMessage` outside the function (will cause an error - comment
+   it out after seeing the error)
+
+💰 This demonstrates that local variables are only accessible inside their
+function.

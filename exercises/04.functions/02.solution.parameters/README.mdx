@@ -1,0 +1,32 @@
+# Parameters and Return Values
+
+👨‍💼 Great work! Your functions can now be dynamic and flexible.
+
+🦉 Some important patterns:
+
+**Default parameters** provide fallback values:
+
+```js
+function greet(name = 'stranger') {
+	return `Hello, ${name}!`
+}
+greet() // "Hello, stranger!"
+greet('Alice') // "Hello, Alice!"
+```
+
+**Multiple returns** can exit a function early:
+
+```js
+function divide(a, b) {
+	if (b === 0) {
+		return 'Cannot divide by zero!'
+	}
+	return a / b
+}
+```
+
+<callout-info>
+Notice the template literal syntax: `` `Hello, ${name}!` ``. The backticks and
+`${}` let you embed expressions inside strings - much cleaner than string
+concatenation!
+</callout-info>

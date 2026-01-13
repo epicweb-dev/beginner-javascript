@@ -1,0 +1,37 @@
+# Arrow Functions
+
+👨‍💼 Modern JavaScript has a shorter syntax for writing functions called arrow
+functions. They're especially useful for short, simple functions.
+
+The syntax:
+
+```js
+// Traditional function
+function add(a, b) {
+	return a + b
+}
+
+// Arrow function
+const add = (a, b) => {
+	return a + b
+}
+
+// Even shorter for single expressions
+const add = (a, b) => a + b
+```
+
+🐨 Open <InlineFile file="index.js" /> and convert these to arrow functions:
+
+1. Create `double` as an arrow function that takes a number and returns it
+   doubled
+2. Create `greet` as an arrow function that takes a name and returns
+   "Hello, [name]!"
+3. Create `isPositive` as an arrow function that takes a number and returns
+   `true` if it's greater than 0
+4. Call each function and log the results
+
+💰 For single-expression functions, you can omit the `{}` and `return`:
+
+```js
+const square = (n) => n * n
+```

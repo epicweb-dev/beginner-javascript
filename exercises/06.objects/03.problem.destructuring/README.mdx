@@ -1,0 +1,44 @@
+# Destructuring
+
+👨‍💼 Destructuring is a modern JavaScript syntax that lets you extract values
+from objects and arrays into variables in a clean, readable way.
+
+**Object destructuring:**
+
+```js
+const person = { name: 'Alice', age: 30, city: 'NYC' }
+
+// Without destructuring:
+const name = person.name
+const age = person.age
+
+// With destructuring:
+const { name, age } = person
+```
+
+**Array destructuring:**
+
+```js
+const colors = ['red', 'green', 'blue']
+
+// Without destructuring:
+const first = colors[0]
+const second = colors[1]
+
+// With destructuring:
+const [first, second] = colors
+```
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create a `user` object with `username`, `email`, and `isAdmin` properties
+2. Use object destructuring to extract `username` and `email` into variables
+3. Create an array `scores` with 3 numbers
+4. Use array destructuring to extract the first two scores
+5. Log all the destructured variables
+
+💰 You can also rename during destructuring:
+
+```js
+const { name: userName } = person // userName = "Alice"
+```

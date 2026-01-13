@@ -1,0 +1,30 @@
+# Array Methods
+
+👨‍💼 Great! You can now modify arrays with built-in methods.
+
+🦉 More useful array methods:
+
+```js
+const arr = [1, 2, 3, 4, 5]
+
+// Find index of an element
+arr.indexOf(3) // 2
+
+// Remove elements at index
+arr.splice(1, 2) // Removes 2 elements starting at index 1
+
+// Join array into string
+arr.join(', ') // "1, 2, 3, 4, 5"
+
+// Check if it's an array
+Array.isArray(arr) // true
+
+// Create a copy
+const copy = [...arr] // Spread operator
+```
+
+<callout-info>
+Methods like `push`, `pop`, `splice` **mutate** (modify) the original array.
+Later you'll learn methods like `map` and `filter` that return **new** arrays
+without modifying the original.
+</callout-info>

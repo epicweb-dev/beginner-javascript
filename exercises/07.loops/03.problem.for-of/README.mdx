@@ -1,0 +1,38 @@
+# For...of Loops
+
+👨‍💼 When you want to iterate over an array and just need each value (not the
+index), `for...of` provides clean, readable syntax.
+
+The syntax:
+
+```js
+for (const item of array) {
+	// use item
+}
+```
+
+For example:
+
+```js
+const fruits = ['apple', 'banana', 'cherry']
+for (const fruit of fruits) {
+	console.log(fruit)
+}
+// Logs: apple, banana, cherry
+```
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create an array `colors` with at least 4 colors
+2. Use `for...of` to log each color
+3. Create an array `numbers` with values `[10, 20, 30, 40, 50]`
+4. Use `for...of` to calculate and log the sum of all numbers
+5. Use `for...of` to find and log the largest number
+
+💰 You can also use `for...of` with strings to iterate over characters:
+
+```js
+for (const char of 'hello') {
+	console.log(char) // h, e, l, l, o
+}
+```

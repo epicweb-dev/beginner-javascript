@@ -1,0 +1,6 @@
+{
+  "name": "exercises_01.hello-javascript_03.problem.types",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

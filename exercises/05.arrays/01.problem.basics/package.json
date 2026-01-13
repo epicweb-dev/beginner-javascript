@@ -1,0 +1,6 @@
+{
+  "name": "exercises_05.arrays_01.problem.basics",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

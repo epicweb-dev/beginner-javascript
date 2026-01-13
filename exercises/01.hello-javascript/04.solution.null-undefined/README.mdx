@@ -1,0 +1,22 @@
+# Null and Undefined
+
+👨‍💼 Great job! You've learned about JavaScript's two "empty" values.
+
+🦉 Key takeaways:
+
+- `undefined` is JavaScript's default for "no value assigned"
+- `null` is what you use when you want to explicitly say "no value"
+- `typeof undefined` is `"undefined"`
+- `typeof null` is `"object"` (a famous JavaScript quirk!)
+- `null == undefined` is `true` (loose equality)
+- `null === undefined` is `false` (strict equality)
+
+<callout-warning>
+	Always use `===` (strict equality) in your comparisons! Loose equality (`==`)
+	has surprising behaviors that can cause bugs.
+</callout-warning>
+
+In practice, you'll see `undefined` more often - it's what you get when
+accessing a property that doesn't exist or a function parameter that wasn't
+passed. You'll use `null` when you want to explicitly clear a value or indicate
+"nothing here on purpose."

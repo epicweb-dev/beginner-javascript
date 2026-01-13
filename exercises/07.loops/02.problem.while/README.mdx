@@ -1,0 +1,38 @@
+# While Loops
+
+👨‍💼 When you don't know exactly how many iterations you need, `while` loops
+continue running as long as a condition is true.
+
+The syntax:
+
+```js
+while (condition) {
+	// code to repeat
+}
+```
+
+For example:
+
+```js
+let count = 0
+while (count < 3) {
+	console.log(count)
+	count++
+}
+// Logs: 0, 1, 2
+```
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Use a while loop to log numbers 1 through 5
+2. Create a variable `sum` starting at 0, and use a while loop to add numbers 1
+   through 10 to it, then log the final sum
+3. Use a while loop to find the first number greater than 1 that divides evenly
+   into 100 (hint: start at 2 and check `100 % number === 0`)
+
+💰 Remember to update your counter inside the loop, or it will run forever!
+
+<callout-danger>
+**Infinite loop warning!** If the condition never becomes false, the loop runs
+forever and crashes your program. Always ensure your loop will eventually end.
+</callout-danger>

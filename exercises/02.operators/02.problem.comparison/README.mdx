@@ -1,0 +1,33 @@
+# Comparison Operators
+
+👨‍💼 Programs need to compare values to make decisions. Comparison operators
+return `true` or `false` based on how values relate to each other.
+
+The comparison operators are:
+
+- `===` Strict equality (same value AND same type)
+- `!==` Strict inequality (not equal)
+- `<` Less than
+- `>` Greater than
+- `<=` Less than or equal
+- `>=` Greater than or equal
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create variables `x = 5` and `y = 10`
+2. Log whether `x` equals `y` using `===`
+3. Log whether `x` is less than `y`
+4. Log whether `x` is greater than or equal to `5`
+5. Log whether `y` is not equal to `x`
+
+💰 Comparison expressions return booleans:
+
+```js
+console.log(5 === 5) // true
+console.log(5 < 3) // false
+```
+
+<callout-warning>
+Always use `===` (strict equality), not `==` (loose equality). Loose equality
+does type coercion which can lead to unexpected results!
+</callout-warning>

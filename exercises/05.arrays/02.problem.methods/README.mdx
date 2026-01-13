@@ -1,0 +1,31 @@
+# Array Methods
+
+👨‍💼 Arrays come with built-in methods to add, remove, and check elements.
+
+Common array methods:
+
+- `push(item)` - Add to the end
+- `pop()` - Remove from the end
+- `unshift(item)` - Add to the beginning
+- `shift()` - Remove from the beginning
+- `length` - Number of elements (property, not method)
+- `includes(item)` - Check if item exists (returns boolean)
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create an array `tasks` with two items: "Learn JavaScript" and "Build
+   project"
+2. Use `push` to add "Deploy app" to the end
+3. Use `unshift` to add "Plan features" to the beginning
+4. Log the array length
+5. Check if "Learn JavaScript" is in the array using `includes`
+6. Use `pop` to remove the last item and log what was removed
+7. Log the final array
+
+💰 Example:
+
+```js
+const numbers = [1, 2, 3]
+numbers.push(4) // [1, 2, 3, 4]
+const removed = numbers.pop() // removed = 4, numbers = [1, 2, 3]
+```

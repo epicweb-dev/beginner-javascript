@@ -1,0 +1,6 @@
+{
+  "name": "exercises_04.functions_01.problem.declaration",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

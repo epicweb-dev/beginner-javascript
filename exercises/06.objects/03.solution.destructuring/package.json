@@ -1,0 +1,6 @@
+{
+	"name": "exercises_06.objects_03.solution.destructuring",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

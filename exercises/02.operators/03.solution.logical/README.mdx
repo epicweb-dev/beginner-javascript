@@ -1,0 +1,23 @@
+# Logical Operators
+
+👨‍💼 Excellent! You can now combine conditions to build complex logic.
+
+🦉 Quick reference:
+
+| A       | B       | A && B  | A \|\| B |
+| ------- | ------- | ------- | -------- |
+| `true`  | `true`  | `true`  | `true`   |
+| `true`  | `false` | `false` | `true`   |
+| `false` | `true`  | `false` | `true`   |
+| `false` | `false` | `false` | `false`  |
+
+<callout-info>
+JavaScript uses "short-circuit evaluation": - With `&&`, if the first value is
+false, JavaScript doesn't check the second - With `||`, if the first value is
+true, JavaScript doesn't check the second
+
+This becomes useful for patterns like `user && user.name` to safely access
+properties.
+</callout-info>
+
+You now have all the tools to build conditional logic!

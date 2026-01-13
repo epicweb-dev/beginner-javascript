@@ -1,0 +1,37 @@
+# Switch Statements
+
+👨‍💼 When you're comparing one value against many specific possibilities, a
+`switch` statement is cleaner than many if/else statements.
+
+The syntax:
+
+```js
+switch (value) {
+	case 'option1':
+		// code for option1
+		break
+	case 'option2':
+		// code for option2
+		break
+	default:
+		// code if no case matches
+}
+```
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create a variable `day` with a day name like `"Monday"`
+2. Write a switch statement that logs:
+   - "Start of work week" for Monday
+   - "Midweek" for Wednesday
+   - "Almost there!" for Friday
+   - "Weekend!" for Saturday or Sunday
+   - "Regular day" for anything else
+
+💰 Don't forget the `break` statement after each case, or execution will "fall
+through" to the next case!
+
+<callout-warning>
+Missing `break` is a common bug! Each case needs `break` unless you intentionally
+want fall-through behavior.
+</callout-warning>

@@ -1,0 +1,37 @@
+# Object Basics
+
+👨‍💼 We need to store related pieces of information together. Objects let us
+group data with meaningful property names.
+
+Creating an object:
+
+```js
+const person = {
+	name: 'Alice',
+	age: 30,
+	city: 'New York',
+}
+```
+
+Accessing properties:
+
+```js
+console.log(person.name) // "Alice" (dot notation)
+console.log(person['age']) // 30 (bracket notation)
+```
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create an object `book` with properties: `title`, `author`, `year`, and
+   `isRead` (boolean)
+2. Log the title using dot notation
+3. Log the author using bracket notation
+4. Change `isRead` to `true`
+5. Add a new property `rating` with a number value
+6. Log the entire object
+
+💰 You can add properties to existing objects:
+
+```js
+person.country = 'USA'
+```

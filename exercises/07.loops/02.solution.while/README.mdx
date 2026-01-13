@@ -1,0 +1,40 @@
+# While Loops
+
+👨‍💼 Great! While loops are perfect when the number of iterations depends on some
+condition.
+
+🦉 There's also a `do...while` loop that runs at least once:
+
+```js
+let input
+do {
+	input = getInput() // Always runs at least once
+} while (input !== 'quit')
+```
+
+When to use each:
+
+| Loop | Use When |
+| ---- | -------- |
+| `for` | You know exactly how many iterations |
+| `while` | You don't know how many iterations, check before each |
+| `do...while` | You need at least one iteration, check after each |
+
+<callout-info>
+The `break` keyword immediately exits any loop:
+
+```js
+while (true) {
+	if (foundIt) break // Exit the loop
+}
+```
+
+The `continue` keyword skips to the next iteration:
+
+```js
+for (let i = 0; i < 10; i++) {
+	if (i === 5) continue // Skip 5
+	console.log(i)
+}
+```
+</callout-info>

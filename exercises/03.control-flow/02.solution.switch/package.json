@@ -1,0 +1,6 @@
+{
+	"name": "exercises_03.control-flow_02.solution.switch",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

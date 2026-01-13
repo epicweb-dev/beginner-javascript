@@ -1,0 +1,6 @@
+{
+  "name": "exercises_07.loops_03.problem.for-of",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

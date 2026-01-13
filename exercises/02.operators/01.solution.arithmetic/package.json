@@ -1,0 +1,6 @@
+{
+	"name": "exercises_02.operators_01.solution.arithmetic",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

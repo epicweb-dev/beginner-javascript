@@ -1,0 +1,6 @@
+{
+	"name": "exercises_07.loops_02.solution.while",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

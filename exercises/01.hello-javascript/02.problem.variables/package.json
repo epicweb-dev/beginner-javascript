@@ -1,0 +1,6 @@
+{
+  "name": "exercises_01.hello-javascript_02.problem.variables",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

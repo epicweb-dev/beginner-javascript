@@ -1,0 +1,20 @@
+# Comparison Operators
+
+👨‍💼 Perfect! You can now compare values in JavaScript.
+
+🦉 Why use `===` instead of `==`?
+
+```js
+// Loose equality does weird type coercion
+console.log(5 == '5') // true (string converted to number)
+console.log(0 == false) // true (false converted to 0)
+console.log(null == undefined) // true
+
+// Strict equality is predictable
+console.log(5 === '5') // false (different types)
+console.log(0 === false) // false (different types)
+console.log(null === undefined) // false (different types)
+```
+
+Comparison operators are the foundation for conditional logic, which you'll
+learn next!

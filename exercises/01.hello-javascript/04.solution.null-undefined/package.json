@@ -1,0 +1,6 @@
+{
+	"name": "exercises_01.hello-javascript_04.solution.null-undefined",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "name": "exercises_03.control-flow_03.problem.ternary",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

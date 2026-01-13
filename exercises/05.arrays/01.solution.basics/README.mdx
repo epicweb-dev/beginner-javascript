@@ -1,0 +1,24 @@
+# Array Basics
+
+👨‍💼 Great! You can now create and access array elements.
+
+🦉 Important notes about arrays:
+
+- **Zero-indexed** - The first element is at index `0`, not `1`
+- **Dynamic size** - Arrays can grow and shrink
+- **Mixed types** - Arrays can hold different types: `[1, "hello", true]` (though
+  this is usually not recommended)
+
+Getting the last element is a common pattern:
+
+```js
+const last = array[array.length - 1]
+
+// Or with modern JavaScript:
+const last = array.at(-1) // Negative indices count from the end!
+```
+
+<callout-info>
+Even though we declared `colors` with `const`, we can still modify its contents.
+`const` only prevents reassigning the variable itself, not mutating the array.
+</callout-info>

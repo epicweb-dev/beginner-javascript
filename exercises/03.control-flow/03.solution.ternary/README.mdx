@@ -1,0 +1,23 @@
+# Ternary Operator
+
+👨‍💼 Perfect! The ternary operator is great for simple, inline conditionals.
+
+🦉 Best practices:
+
+- **Do use** for simple either/or assignments
+- **Don't use** for complex conditions (use if/else instead)
+- **Avoid nesting** ternaries (they become unreadable)
+
+```js
+// ✅ Good - simple and clear
+const status = isOnline ? 'Online' : 'Offline'
+
+// ❌ Bad - nested and confusing
+const result = a ? (b ? 'A and B' : 'Just A') : c ? 'Just C' : 'None'
+```
+
+The ternary operator is especially useful in template strings and JSX (React):
+
+```js
+console.log(`User is ${isLoggedIn ? 'logged in' : 'logged out'}`)
+```

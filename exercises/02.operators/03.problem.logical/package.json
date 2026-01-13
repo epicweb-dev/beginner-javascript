@@ -1,0 +1,6 @@
+{
+  "name": "exercises_02.operators_03.problem.logical",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}

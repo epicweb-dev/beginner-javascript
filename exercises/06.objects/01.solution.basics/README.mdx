@@ -1,0 +1,28 @@
+# Object Basics
+
+👨‍💼 Great! You can now create and work with objects.
+
+🦉 When to use each notation:
+
+**Dot notation** (`object.property`):
+
+- When you know the exact property name
+- Cleaner and more common
+
+**Bracket notation** (`object["property"]`):
+
+- When the property name is in a variable
+- When property names have special characters or spaces
+
+```js
+const key = 'name'
+console.log(person[key]) // Dynamic property access
+
+const weird = { 'full name': 'John Doe' }
+console.log(weird['full name']) // Spaces in property name
+```
+
+<callout-info>
+Like arrays, objects declared with `const` can still have their properties
+modified. `const` only prevents reassigning the variable itself.
+</callout-info>

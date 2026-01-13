@@ -1,0 +1,28 @@
+# Array Iteration
+
+👨‍💼 Often we need to process every element in an array. JavaScript provides
+powerful methods for this.
+
+Key iteration methods:
+
+- `forEach(fn)` - Run a function on each element (doesn't return anything)
+- `map(fn)` - Transform each element, returns new array
+- `filter(fn)` - Keep elements that pass a test, returns new array
+
+🐨 Open <InlineFile file="index.js" /> and:
+
+1. Create an array `numbers` with values `[1, 2, 3, 4, 5]`
+2. Use `forEach` to log each number multiplied by 2
+3. Use `map` to create a new array `doubled` where each number is doubled
+4. Use `filter` to create a new array `evens` with only even numbers
+5. Log both `doubled` and `evens`
+
+💰 These methods take a callback function:
+
+```js
+numbers.forEach((num) => console.log(num))
+const squares = numbers.map((num) => num * num)
+const big = numbers.filter((num) => num > 10)
+```
+
+📜 [Array iteration methods on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#iteration_methods)

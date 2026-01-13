@@ -1,0 +1,6 @@
+{
+	"name": "exercises_04.functions_04.solution.scope",
+	"scripts": {
+		"dev": "node index.js"
+	}
+}

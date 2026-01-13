@@ -1,0 +1,43 @@
+# Object Methods
+
+👨‍💼 Great! You've created methods that operate on object data.
+
+🦉 The `this` keyword:
+
+Inside a method, `this` refers to the object the method belongs to. This lets
+methods access and use the object's other properties.
+
+```js
+const counter = {
+	count: 0,
+	increment() {
+		this.count += 1
+		return this.count
+	},
+	decrement() {
+		this.count -= 1
+		return this.count
+	},
+}
+```
+
+<callout-warning>
+Arrow functions handle `this` differently! They don't have their own `this`, so
+avoid using arrow functions for object methods that need to access `this`.
+</callout-warning>
+
+```js
+// ❌ Don't do this
+const obj = {
+	name: 'Alice',
+	greet: () => 'Hi, ' + this.name, // `this` won't work as expected!
+}
+
+// ✅ Do this
+const obj = {
+	name: 'Alice',
+	greet() {
+		return 'Hi, ' + this.name
+	},
+}
+```
