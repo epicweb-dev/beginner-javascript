@@ -1,6 +1,6 @@
 {
-	"name": "exercises_02.operators_02.solution.comparison",
-	"scripts": {
-		"dev": "node index.js"
-	}
+  "name": "exercises_02.operators_02.solution.comparison",
+  "scripts": {
+    "dev": "node index.js"
+  }
 }

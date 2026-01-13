@@ -1,6 +1,6 @@
 {
-	"name": "exercises_02.operators_03.solution.logical",
-	"scripts": {
-		"dev": "node index.js"
-	}
+  "name": "exercises_02.operators_03.solution.logical",
+  "scripts": {
+    "dev": "node index.js"
+  }
 }

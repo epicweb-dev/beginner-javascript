@@ -1,6 +1,6 @@
 {
-	"name": "exercises_06.objects_02.solution.methods",
-	"scripts": {
-		"dev": "node index.js"
-	}
+  "name": "exercises_06.objects_02.solution.methods",
+  "scripts": {
+    "dev": "node index.js"
+  }
 }

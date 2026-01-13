@@ -1,7 +1,7 @@
 {
-	"type": "module",
-	"name": "exercises_01.hello-javascript_01.solution.console-log",
-	"scripts": {
-		"dev": "node index.js"
-	}
+  "type": "module",
+  "name": "exercises_01.hello-javascript_01.solution.console-log",
+  "scripts": {
+    "dev": "node index.js"
+  }
 }

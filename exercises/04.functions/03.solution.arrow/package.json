@@ -1,6 +1,6 @@
 {
-	"name": "exercises_04.functions_03.solution.arrow",
-	"scripts": {
-		"dev": "node index.js"
-	}
+  "name": "exercises_04.functions_03.solution.arrow",
+  "scripts": {
+    "dev": "node index.js"
+  }
 }

@@ -1,6 +1,6 @@
 {
-	"name": "exercises_07.loops_03.solution.for-of",
-	"scripts": {
-		"dev": "node index.js"
-	}
+  "name": "exercises_07.loops_03.solution.for-of",
+  "scripts": {
+    "dev": "node index.js"
+  }
 }

@@ -23,6 +23,18 @@
       "path": "exercises/01.hello-javascript/03.solution.types"
     },
     {
+      "path": "exercises/01.hello-javascript/04.problem.null-undefined"
+    },
+    {
+      "path": "exercises/01.hello-javascript/04.solution.null-undefined"
+    },
+    {
+      "path": "exercises/01.hello-javascript/05.problem.template-literals"
+    },
+    {
+      "path": "exercises/01.hello-javascript/05.solution.template-literals"
+    },
+    {
       "path": "exercises/02.operators/01.problem.arithmetic"
     },
     {
