@@ -1,150 +1,152 @@
 {
-	"files": [],
-	"exclude": ["node_modules"],
-	"references": [
-		{
-			"path": "exercises/01.hello-javascript/01.problem.console-log"
-		},
-		{
-			"path": "exercises/01.hello-javascript/01.solution.console-log"
-		},
-		{
-			"path": "exercises/01.hello-javascript/02.problem.variables"
-		},
-		{
-			"path": "exercises/01.hello-javascript/02.solution.variables"
-		},
-		{
-			"path": "exercises/01.hello-javascript/03.problem.types"
-		},
-		{
-			"path": "exercises/01.hello-javascript/03.solution.types"
-		},
-		{
-			"path": "exercises/01.hello-javascript/04.problem.null-undefined"
-		},
-		{
-			"path": "exercises/01.hello-javascript/04.solution.null-undefined"
-		},
-		{
-			"path": "exercises/01.hello-javascript/05.problem.template-literals"
-		},
-		{
-			"path": "exercises/01.hello-javascript/05.solution.template-literals"
-		},
-		{
-			"path": "exercises/02.operators/01.problem.arithmetic"
-		},
-		{
-			"path": "exercises/02.operators/01.solution.arithmetic"
-		},
-		{
-			"path": "exercises/02.operators/02.problem.comparison"
-		},
-		{
-			"path": "exercises/02.operators/02.solution.comparison"
-		},
-		{
-			"path": "exercises/02.operators/03.problem.logical"
-		},
-		{
-			"path": "exercises/02.operators/03.solution.logical"
-		},
-		{
-			"path": "exercises/03.control-flow/01.problem.conditionals"
-		},
-		{
-			"path": "exercises/03.control-flow/01.solution.conditionals"
-		},
-		{
-			"path": "exercises/03.control-flow/02.problem.switch"
-		},
-		{
-			"path": "exercises/03.control-flow/02.solution.switch"
-		},
-		{
-			"path": "exercises/03.control-flow/03.problem.ternary"
-		},
-		{
-			"path": "exercises/03.control-flow/03.solution.ternary"
-		},
-		{
-			"path": "exercises/04.functions/01.problem.declaration"
-		},
-		{
-			"path": "exercises/04.functions/01.solution.declaration"
-		},
-		{
-			"path": "exercises/04.functions/02.problem.parameters"
-		},
-		{
-			"path": "exercises/04.functions/02.solution.parameters"
-		},
-		{
-			"path": "exercises/04.functions/03.problem.arrow"
-		},
-		{
-			"path": "exercises/04.functions/03.solution.arrow"
-		},
-		{
-			"path": "exercises/04.functions/04.problem.scope"
-		},
-		{
-			"path": "exercises/04.functions/04.solution.scope"
-		},
-		{
-			"path": "exercises/05.arrays/01.problem.basics"
-		},
-		{
-			"path": "exercises/05.arrays/01.solution.basics"
-		},
-		{
-			"path": "exercises/05.arrays/02.problem.methods"
-		},
-		{
-			"path": "exercises/05.arrays/02.solution.methods"
-		},
-		{
-			"path": "exercises/05.arrays/03.problem.iteration"
-		},
-		{
-			"path": "exercises/05.arrays/03.solution.iteration"
-		},
-		{
-			"path": "exercises/06.objects/01.problem.basics"
-		},
-		{
-			"path": "exercises/06.objects/01.solution.basics"
-		},
-		{
-			"path": "exercises/06.objects/02.problem.methods"
-		},
-		{
-			"path": "exercises/06.objects/02.solution.methods"
-		},
-		{
-			"path": "exercises/06.objects/03.problem.destructuring"
-		},
-		{
-			"path": "exercises/06.objects/03.solution.destructuring"
-		},
-		{
-			"path": "exercises/07.loops/01.problem.for"
-		},
-		{
-			"path": "exercises/07.loops/01.solution.for"
-		},
-		{
-			"path": "exercises/07.loops/02.problem.while"
-		},
-		{
-			"path": "exercises/07.loops/02.solution.while"
-		},
-		{
-			"path": "exercises/07.loops/03.problem.for-of"
-		},
-		{
-			"path": "exercises/07.loops/03.solution.for-of"
-		}
-	]
+  "files": [],
+  "exclude": [
+    "node_modules"
+  ],
+  "references": [
+    {
+      "path": "exercises/01.hello-javascript/01.problem.console-log"
+    },
+    {
+      "path": "exercises/01.hello-javascript/01.solution.console-log"
+    },
+    {
+      "path": "exercises/01.hello-javascript/02.problem.variables"
+    },
+    {
+      "path": "exercises/01.hello-javascript/02.solution.variables"
+    },
+    {
+      "path": "exercises/01.hello-javascript/03.problem.types"
+    },
+    {
+      "path": "exercises/01.hello-javascript/03.solution.types"
+    },
+    {
+      "path": "exercises/01.hello-javascript/04.problem.null-undefined"
+    },
+    {
+      "path": "exercises/01.hello-javascript/04.solution.null-undefined"
+    },
+    {
+      "path": "exercises/01.hello-javascript/05.problem.template-literals"
+    },
+    {
+      "path": "exercises/01.hello-javascript/05.solution.template-literals"
+    },
+    {
+      "path": "exercises/02.operators/01.problem.arithmetic"
+    },
+    {
+      "path": "exercises/02.operators/01.solution.arithmetic"
+    },
+    {
+      "path": "exercises/02.operators/02.problem.comparison"
+    },
+    {
+      "path": "exercises/02.operators/02.solution.comparison"
+    },
+    {
+      "path": "exercises/02.operators/03.problem.logical"
+    },
+    {
+      "path": "exercises/02.operators/03.solution.logical"
+    },
+    {
+      "path": "exercises/03.control-flow/01.problem.conditionals"
+    },
+    {
+      "path": "exercises/03.control-flow/01.solution.conditionals"
+    },
+    {
+      "path": "exercises/03.control-flow/02.problem.switch"
+    },
+    {
+      "path": "exercises/03.control-flow/02.solution.switch"
+    },
+    {
+      "path": "exercises/03.control-flow/03.problem.ternary"
+    },
+    {
+      "path": "exercises/03.control-flow/03.solution.ternary"
+    },
+    {
+      "path": "exercises/04.functions/01.problem.declaration"
+    },
+    {
+      "path": "exercises/04.functions/01.solution.declaration"
+    },
+    {
+      "path": "exercises/04.functions/02.problem.parameters"
+    },
+    {
+      "path": "exercises/04.functions/02.solution.parameters"
+    },
+    {
+      "path": "exercises/04.functions/03.problem.arrow"
+    },
+    {
+      "path": "exercises/04.functions/03.solution.arrow"
+    },
+    {
+      "path": "exercises/04.functions/04.problem.scope"
+    },
+    {
+      "path": "exercises/04.functions/04.solution.scope"
+    },
+    {
+      "path": "exercises/05.arrays/01.problem.basics"
+    },
+    {
+      "path": "exercises/05.arrays/01.solution.basics"
+    },
+    {
+      "path": "exercises/05.arrays/02.problem.methods"
+    },
+    {
+      "path": "exercises/05.arrays/02.solution.methods"
+    },
+    {
+      "path": "exercises/05.arrays/03.problem.iteration"
+    },
+    {
+      "path": "exercises/05.arrays/03.solution.iteration"
+    },
+    {
+      "path": "exercises/06.objects/01.problem.basics"
+    },
+    {
+      "path": "exercises/06.objects/01.solution.basics"
+    },
+    {
+      "path": "exercises/06.objects/02.problem.methods"
+    },
+    {
+      "path": "exercises/06.objects/02.solution.methods"
+    },
+    {
+      "path": "exercises/06.objects/03.problem.destructuring"
+    },
+    {
+      "path": "exercises/06.objects/03.solution.destructuring"
+    },
+    {
+      "path": "exercises/07.loops/01.problem.for"
+    },
+    {
+      "path": "exercises/07.loops/01.solution.for"
+    },
+    {
+      "path": "exercises/07.loops/02.problem.while"
+    },
+    {
+      "path": "exercises/07.loops/02.solution.while"
+    },
+    {
+      "path": "exercises/07.loops/03.problem.for-of"
+    },
+    {
+      "path": "exercises/07.loops/03.solution.for-of"
+    }
+  ]
 }
