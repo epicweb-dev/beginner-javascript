@@ -60,7 +60,7 @@ jobs:
 
       - name: 🧪 Run tests
         id: run_tests
-        run: echo "TODO: fix this - node ./epicshop/test.js ..s"
+        run: echo "TODO: fix this... node ./epicshop/test.js ..s"
 
   deploy:
     name: 🚀 Deploy
